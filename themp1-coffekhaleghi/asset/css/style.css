@@ -1,0 +1,223 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir/Vazir-Bold-FD-WOL.eot')format('eot'),
+        url('../fonts/vazir/Vazir-Bold-FD-WOL.ttf')format('ttf'),
+        url('../fonts/vazir/Vazir-Bold-FD-WOL.woff')format('woff'),
+        url('../fonts/vazir/Vazir-Bold-FD-WOL.woff2')format('woff2');
+}
+
+* {
+    direction: rtl;
+    font-family: 'vazir';
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.d-none {
+    display: none;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .6);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* header */
+header {
+    background-image: url('../images/bakcground-header.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+header nav {
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 80px;
+
+}
+
+header nav .container {
+    overflow: hidden;
+}
+
+header nav .nav-menu {
+    width: 60%;
+    float: right;
+    height: 100%;
+    display: flex;
+
+}
+
+header nav .nav-menu li a {
+    display: block;
+    padding: 0 15px; /* برای فاصله سمت راست و چپ */
+    line-height: 80px; /* هم‌ارتفاع با منو */
+    color: rgb(162, 162, 162);
+    font-size: 16px;
+}
+
+header nav .nav-menu li {
+    display: inline-block;
+    line-height: 5;
+    margin: 0 5px;
+    height: 100%;
+    padding: 0 10px;
+}
+
+header nav .nav-menu li a:hover {
+    background-color: #fff;
+    color: #000 !important;
+}
+
+/* زیرمنو مخفی */
+
+header nav .nav-menu .nav-menu-dropdown {
+    display: none;
+    position: relative;
+    padding: 10px 0;
+    list-style: none;
+    top: 100%;
+    /* بیاد زیر آیتم والد */
+    right: 0;
+    /* چون rtl هست سمت راست بچسبه */
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+/* آیتم‌های زیرمنو */
+header nav .nav-menu .nav-menu-dropdown li {
+    display: block;
+    margin: 0;
+    line-height: normal;
+
+}
+
+header nav .nav-menu .nav-menu-dropdown li a {
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 14px;
+    background-color: #f2f2f2;
+}
+
+header nav .nav-menu .nav-menu-dropdown li a:hover {
+    background-color: #ffffff;
+    box-shadow: #f2f2f2;
+    color: #702001;
+}
+
+/* وقتی هاور شد، زیرمنو نمایش داده بشه */
+header nav .nav-menu li.dropdown:hover .nav-menu-dropdown {
+    display: block;
+}
+
+header nav li .dropdown:hover {
+
+    background-color: white;
+    color: #000;
+}
+
+.navbar-brand {
+    width: 20%;
+    float: right;
+
+
+}
+
+header nav .logo h1 {
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 0 6px;
+    font-size: 22px;
+    list-style: none;
+    line-height: 4;
+}
+
+header nav .logo img {
+    width: 72px;
+}
+
+.btn-panel {
+    width: 20%;
+    float: right;
+    text-align: left;
+
+}
+
+.btn-panel span {
+    line-height: 5;
+    color: #fff;
+    font-size: 16px;
+
+    background-color: #702001;
+    padding: 15px 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* text header */
+.heaser-desc {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    color: white;
+}
+
+.heaser-desc h2 {
+    text-align: center;
+}
+
+.heaser-desc p {
+    text-align: center;
+}
+/* over-story  */
+.over-story{
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+}
+.over-story-right{
+    float: right;
+    width: 50%;
+    margin: 10% 0;
+}
+.over-story-right h2{
+    font-size: 2rem;
+}
+.over-story-right p{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.over-story-left{
+    float: right;
+    width: 50%;
+}
