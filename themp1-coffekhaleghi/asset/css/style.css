@@ -150,15 +150,24 @@ header nav .logo h1 {
     color: white;
     float: left;
     padding: 0 6px;
-    font-size: 22px;
+    font-size: 12px;
     list-style: none;
-    line-height: 4;
+    line-height: 7;
 }
 
 header nav .logo img {
     width: 72px;
 }
-
+.hamburger-menu svg {
+    font-size: 35px;
+    color: #fefefe;
+    margin-top: 14px;
+    display: none;
+}
+.navbar-mobile.hamburger-menu {
+    float: right;
+    
+}
 .btn-panel {
     width: 20%;
     float: right;
@@ -279,7 +288,7 @@ header nav .logo img {
 }
 
 .menu-img-left {
-    width: 50%;
+    width: 48%;
     float: right;
 }
 
@@ -319,12 +328,12 @@ a#show-menu:hover {
 
 .love-coffe-box {
     color: #fff;
-    padding: 14%;
+    padding: 28% 0;
     text-align: center;
     width: 60%;
+    height: 100%;
     margin: 0 auto;
 }
-
 .love {
     float: right;
     width: 100%;

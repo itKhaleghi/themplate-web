@@ -1,0 +1,125 @@
+@media screen and (max-width:1400px) {
+    .container {
+        width: 90%;
+    }
+
+    .btn-panel {
+        float: left;
+    }
+
+    header nav .logo h1 {
+        font-size: 15px;
+        line-height: 6;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .menu-img-left {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:996px) {
+    header nav .nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu svg {
+        display: block;
+        padding: 12px;
+    }
+
+    .navbar-brand {
+        width: 25%;
+    }
+
+    .btn-panel span {
+        line-height: 5;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .btn-panel {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 40%;
+        float: left;
+    }
+
+    header nav .logo h1 {
+        float: right;
+    }
+
+    .over-story-right {
+        width: 100%;
+    }
+
+    .over-story-left {
+        width: 100%;
+    }
+
+    .menu-desc-right,
+    .menu-img-left {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    #menu {
+        height: 682px;
+        padding: 3rem 0;
+    }
+
+    .love-coffe-box {
+        width: 100%;
+    }
+
+    .delight-desc-right {
+        width: 100%;
+        height: unset;
+        padding: 50px 0 0;
+    }
+
+    .delight-img-left {
+        width: 100%;
+    }
+    .delight-img-left img{
+        width: 47%;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    header nav .logo h1 {
+        display: none;
+    }
+
+    .btn-panel span {
+        font-size: 12px;
+        line-height: 7;
+    }
+
+    .menu-img-left img {
+        width: 45%;
+        min-height: 198px;
+    }
+    .sowtt {overflow: hidden;}
+}
+
+@media screen and (max-width:425px) {
+    .btn-panel {
+        width: 40%;
+    }
+
+    .heaser-desc {
+        top: 30vh;
+    }
+
+    .heaser-desc h2 {
+        font-size: 28px;
+    }
+
+}
